@@ -254,4 +254,76 @@ height: 120px;
       
     }
 
-    @media only 
+    @media only screen and (max-width: 768px){
+        #gridOne{
+            display: block;
+            text-align: center;
+        }
+        #caption{
+            text-align: left;
+        }
+        #details{
+            background-color: white;
+            color:black;
+            }
+
+
+            body{
+                max-width: 414px;
+                display: grid;
+                justify-content: center;
+                }
+
+
+        nav ul{
+            display: flex;
+            justify-content: center;}
+            
+
+        #gridTwo{
+            display: block;
+            background-color: white;
+            color:black;
+        }
+        #gridThree{
+            display: block;
+        }
+        #gridFour{
+            display: block;
+        }
+          
+        }
+
+
+        @media print {
+            @page {
+                margin: .5in;
+              }
+
+            nav, img{
+                display: none;
+            }
+
+            html, body
+                {
+                height:100%; 
+                margin: 0 !important; 
+                padding: 0 !important;
+                overflow: hidden;
+            }
+
+            *{
+                font-family: serif;
+            }
+
+            a:after {
+                content: "("attr(href)")";
+              }
+
+
+            }
+
+
+            
+
+    
