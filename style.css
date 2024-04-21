@@ -58,7 +58,7 @@ text-align: center;
 
 #PicOne img{
     width: 500px;
-    height: 675px;
+    height: 700px;
     margin-left: -300px;
     margin-bottom: -5px;
 }
@@ -185,13 +185,18 @@ height: 120px;
     margin-left: 105px;
 }
 
+#TacoCheese h3{
+    margin-left: -390px;
+    line-height: 15px;
+}
+
 #circle-clip{
     clip-path: circle(100px at center);
+    padding-left: 7px;
   }
 
 .SideDishes{
     background-color: #7ABFBF;
-
 }
 
 .Connect{
@@ -239,18 +244,24 @@ height: 120px;
     }
 
     #navbar{
-        background-color: white;
-        border: 2px solid #EB5428;
+        color: white;    
+    background: transparent;
         max-width: 768px;
+      margin-top: 70px;
     }
 
         #PicOne img{
             width: 768px;
-            height: 812px;
+            height: 820px;
             margin: auto;
             margin-bottom: -5px;  
         }
 
+        #caption{
+max-width: 750px;
+margin-left: 14px;
+
+        }
       
     }
 
