@@ -1,0 +1,257 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+  body{
+    background-color: rgba(122, 191, 191, .5);
+    display: grid;
+    max-width: 1280px;
+    margin: auto;
+}
+
+#navbar p{
+font-family: 'Bebas Neue', cursive;
+padding-left: 7px;
+color: #EB5428;
+}
+
+
+#caption{
+margin-left: -219px;
+line-height: 35px;
+}
+
+header{
+    background-color: #F2F2F2;
+}
+
+
+.TopMenu{
+    background-color: white;
+}
+
+#cornerIcon{
+    background-color: #EB5428;
+    max-width: 80px;
+    padding: 15px;
+}
+
+h1{
+font-size: 40px;
+font-family: 'Bebas Neue', cursive;
+text-align: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+
+#navbar{
+    background-color: white;
+    border: 2px solid #EB5428;
+    max-width: 123px;
+}
+
+#PicOne img{
+    width: 500px;
+    height: 675px;
+    margin-left: -300px;
+    margin-bottom: -5px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.search{
+text-align: center;
+
+}
+
+
+
+h3{
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+}
+
+nav{
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+}
+
+nav a, nav span{
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+}
+
+li{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+#gridOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #F2F2F2;
+    grid-gap: 0;
+    
+}
+
+.right{text-align: right;}
+
+#details{
+background-color: #0D0D0D;
+color: #7ABFBF; 
+}
+
+.TopMenu{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #EB5428;
+}
+
+#signIn{
+    color: #0D0D0D;
+}
+
+#Guacamole img{
+width: 130px;
+height: 120px;
+}
+
+#Salsa img{
+    width: 130px;
+    height: 120px;
+}
+
+#Mr img{
+    width: 130px;
+height: 120px;
+}
+
+#Tortillas img{
+    width: 130px;
+height: 120px;
+}
+
+
+
+
+#gridTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #0D0D0D;
+    color: #7ABFBF;
+    padding-left:20px;
+}
+
+#gridThree{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #F2F2F2;
+    color: #0D0D0D;
+}
+
+.gridFour{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #7ABFBF;
+    color: #0D0D0D;
+    margin-left: 105px;
+}
+
+#circle-clip{
+    clip-path: circle(100px at center);
+  }
+
+.SideDishes{
+    background-color: #7ABFBF;
+
+}
+
+.Connect{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: white;
+}
+
+#SocialM li{
+        float: right;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        display: block;
+        color: #EB5428;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+}
+
+#SocialM{
+
+    background-color: white;
+}
+
+@media only screen and (max-width: 1280px){
+    #gridOne{
+        display: block;
+        text-align: center;
+    }
+    #caption{
+        text-align: left;
+    }
+
+    body{
+        display: grid;
+        max-width: 768px;
+        margin: auto;
+        }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #navbar{
+        background-color: white;
+        border: 2px solid #EB5428;
+        max-width: 768px;
+    }
+
+        #PicOne img{
+            width: 768px;
+            height: 812px;
+            margin: auto;
+            margin-bottom: -5px;  
+        }
+
+      
+    }
+
+    @media only 
