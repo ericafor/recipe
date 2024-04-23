@@ -53,7 +53,6 @@ text-align: center;
 #navbar{
     background-color: white;
     border: 2px solid #EB5428;
-    max-width: 123px;
 }
 
 #PicOne img{
@@ -102,12 +101,14 @@ h3{
     text-align: left;
 }
 
-nav{
+
+
+menu{
 font-size: 16px;
 font-family: 'Montserrat', sans-serif;
 }
 
-nav a, nav span{
+menu a, menu span{
         font-size: 20px;
         font-family: 'Bebas Neue', cursive;
 }
@@ -141,6 +142,16 @@ p{
 #details{
 background-color: #0D0D0D;
 color: #7ABFBF; 
+}
+
+
+.gridFour h3{
+padding-top: -20px;
+
+}
+
+.gridFour p{
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -219,11 +230,28 @@ color: #7ABFBF;
     background-color: white;
 }
 
+
+
+
+@media only screen and (min-width:1280px){
+
+
+
+
+
+
+
+
+
+
+}
+
 @media only screen and (max-width: 1280px){
     #gridOne{
         display: block;
         text-align: center;
     }
+
     #caption{
         text-align: left;
     }
@@ -234,19 +262,69 @@ color: #7ABFBF;
         margin: auto;
         }
 
-    nav ul{
+
+    menu{
         display: flex;
         justify-content: center;
-
+        width:auto;
+        
     }
+
+    h1{
+        font-size: 40px;
+        font-family: 'Bebas Neue', cursive;
+        text-align: left;
+        padding-left: 15px;
+        }
+
+        #Direction li{
+line-height: 28px;
+        }
+
+    #details{
+        background-color:#F2F2F2;
+        color: black; 
+        }
+
 
     #navbar{
-        color: white;    
-        background: transparent;
-        
-        max-width: 1080px;
+        background-color: white;
+        opacity:0.8;
+        width: 768px;
         position: absolute;
+        border: none;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        display:grid;
+        height:100px;
     }
+
+   #svg{
+    display:flex;
+    padding-right: 40px;
+    margin-top: 5px;
+   }
+
+   #svg svg{
+    margin:83px;
+    margin-right:40px;
+    margin-top: 5px;
+   }
+
+
+   #navbar p{
+
+    margin-left:-40px;
+    margin-top: 40px;
+   }
+
+
+   #gridTwo{
+    background-color: #F2F2F2;
+    color:black;
+   }
+
+
 
         #PicOne img{
             width: 768px;
@@ -254,8 +332,6 @@ color: #7ABFBF;
             margin: auto;
             margin-bottom: -5px;  
         }
-
-
 
         #caption{
             max-width: 750px;
@@ -277,7 +353,7 @@ color: #7ABFBF;
             text-align: left;
         }
         #details{
-            background-color: white;
+            background-color: #F2F2F2;
             color:black;
             }
 
@@ -286,17 +362,36 @@ color: #7ABFBF;
                 max-width: 414px;
                 display: grid;
                 justify-content: center;
+            
                 }
 
 
-        nav ul{
+                h1{
+                    font-size: 40px;
+                    font-family: 'Bebas Neue', cursive;
+                    text-align: center;
+                    }
+
+                #Ingredients li{
+                    line-height: 40px;
+                }
+
+                #navbar{
+                    background-color: #F2F2F2;
+                    opacity:1;
+                }
+
+
+                
+
+        menu{
             display: flex;
             justify-content: center;}
             
 
         #gridTwo{
             display: block;
-            background-color: white;
+           
             color:black;
         }
         #gridThree{
@@ -314,7 +409,7 @@ color: #7ABFBF;
                 margin: .5in;
               }
 
-            nav, img{
+            menu, img{
                 display: none;
             }
 
