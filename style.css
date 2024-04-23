@@ -69,11 +69,31 @@ h2{
     text-align: center;
 }
 
-.search{
-text-align: center;
+
+.searchOne{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 
 }
 
+
+.search{
+    display: grid;
+border: 2px solid #EB5428;
+max-width: 200px;
+margin-top: 27px;
+margin-left: 500px;
+
+}
+
+.searchIcon{
+
+    background-color: #EB5428;
+    max-width: 30px;
+    max-height: 37px;
+    margin-right:59px;
+    margin-top:27px;
+}
 
 
 h3{
@@ -123,6 +143,7 @@ background-color: #0D0D0D;
 color: #7ABFBF; 
 }
 
+
 .TopMenu{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -135,11 +156,6 @@ color: #7ABFBF;
 #signIn{
     color: #0D0D0D;
 }
-
-
-
-
-
 #gridTwo{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -226,9 +242,10 @@ color: #7ABFBF;
 
     #navbar{
         color: white;    
-    background: transparent;
-        max-width: 768px;
-      margin-top: 70px;
+        background: transparent;
+        
+        max-width: 1080px;
+        position: absolute;
     }
 
         #PicOne img{
@@ -238,12 +255,17 @@ color: #7ABFBF;
             margin-bottom: -5px;  
         }
 
-        #caption{
-max-width: 750px;
-margin-left: 14px;
 
+
+        #caption{
+            max-width: 750px;
+            margin-left: 14px;
         }
-      
+
+        #TacoCheese h3{
+            padding-left: 190px;
+        }
+
     }
 
     @media only screen and (max-width: 768px){
