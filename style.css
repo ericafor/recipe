@@ -145,6 +145,7 @@ color: #7ABFBF;
 
 
 
+
 .gridFour p{
     font-family: 'Montserrat', sans-serif;
 }
@@ -228,6 +229,9 @@ color: #7ABFBF;
 
 #SocialM nav{
    display:flex;
+   font-family: 'Bebas Neue', cursive;
+     margin:10px;
+        color: #EB5428;
 }
 
 
@@ -235,11 +239,9 @@ color: #7ABFBF;
 
 
 
-
-
-
-
-
+#navbar nav{
+    margin-left:30px;
+}
 
 
 }
@@ -261,7 +263,7 @@ color: #7ABFBF;
         }
 
 
-    menu{
+    #navbar nav{
         display: flex;
         justify-content: center;
         width:auto;
@@ -288,7 +290,7 @@ color: #7ABFBF;
         }
 
         #Direction li{
-line-height: 28px;
+        line-height: 28px;
         }
 
     #details{
@@ -333,6 +335,12 @@ line-height: 28px;
     background-color: #F2F2F2;
     color:black;
    }
+
+   .gridFour{
+
+    margin-left:55px;
+   }
+
 
 
         #PicOne img{
